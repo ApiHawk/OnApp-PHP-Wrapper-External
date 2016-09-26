@@ -134,6 +134,7 @@ class OnApp_Helper_Caster_JSON extends OnApp_Helper_Caster {
             }
 
             if ( isset( $this->map[ $name ][ ONAPP_FIELD_TYPE ] ) ) {
+                //notices
                 if ( $this->map[ $name ][ ONAPP_FIELD_TYPE ] == 'array' ) {
                     if ( empty( $value ) ) {
                         $value = array();
