@@ -10,7 +10,7 @@
   ],
   "autoload": {
            "files": [
-            "/src/OnAppInit.php"
+            "./OnAppInit.php"
         ]
       }
 }
