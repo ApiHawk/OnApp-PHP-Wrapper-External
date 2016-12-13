@@ -9,31 +9,8 @@
     }
   ],
   "autoload": {
-        "classmap": [
-          "VirtualMachine/",
-          "VirtualMachine/NetworkInterface/",
-          "Vapp",
-          "VDCS",
-          "VDCS/EdgeGateway",
-          "User",
-          "User/Statistics",
-          "Role",
-          "LoadBalancingCluster",
-          "HypervisorZone",
-          "Hypervisor",
-          "Helper",
-          "Helper/Caster",
-          "EdgeServer",
-          "EdgeGroup",
-          "EdgeGroup/Location",
-          "EdgeGroup/Location/Operator",
-          "Disk",
-          "DNSZone",
-          "CDNResource",
-          "CDNResource/Advanced",
-          "CDNResource/AvailableEdgeGroup",
-          "BillingPlan",
-          "BillingPlan/BaseResource"
+           "files": [
+            "/src/OnAppInit.php"
         ]
       }
 }
